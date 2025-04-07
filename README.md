@@ -31,23 +31,19 @@ Make sure to download the dataset from Kaggle and place it in the backend folder
 ## How to Run This Project 💻
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/movies-recommendation-application.git
 cd movies-recommendation-application
 cd backend
+
+## 2. Install flask
 pip install -r requirements.txt
 python app.py
 By default, the Flask server will start at:
 http://127.0.0.1:5000/
 
+## Android Running
 Running Android Frontend (Java)
 Open android-app folder in Android Studio.
-
 Configure API URL in your Java code (usually in Retrofit or API Client file) to point to:
-
-perl
-Copy
-Edit
 http://your-local-ip:5000/
 Run the Android Application on Emulator or Physical Device.
 
